@@ -40,7 +40,7 @@ const two = 2;
     });
     const markdown = marked(this.state.text);
     return (
-      <div className="container-fluid">
+      <div className="container">
         <div className="row text-center bg-dark">
           <div className="col">
             <h1 className="my-4 text-light">React Markdown Previewer</h1>
